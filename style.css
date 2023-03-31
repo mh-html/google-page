@@ -1,0 +1,83 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color:#8c8c8c ;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    float: right;
+    margin-right: 20px;
+    margin-top: -10px;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 10px;
+}
+.header .btn {
+    background-color: blue;
+    color: white;
+    padding: 9px;
+    border-radius: 4px;
+}
+.main {
+    width: 800px;
+    margin: 130px auto;
+    text-align:center;
+}
+.main .search-box {
+    width: 500px;
+    text-align: center;
+    padding: 15px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+}
+
+.main .btn-search {
+    margin-top: 20px;
+    padding: 10px 30px;
+    background-color: lightgrey;
+    border-radius: 10px;
+    border: 1px solid transparent;
+    margin-right: 8px;
+}
+.main .btn-search:hover {
+    border: 1px solid #9c9c9c;
+    cursor: pointer;
+}
+.right-footer {
+    float: right;
+    margin-right: 40px;
+}
+.left-footer {
+    float: left;
+
+}
+.footer ul li {
+    display: inline-block;
+    margin-left: 10px;
+    padding-bottom: 2px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+    
+}
+  .header #appsicon {
+   position: relative;
+    top: 10px;
+   width: 30px;
+  }
